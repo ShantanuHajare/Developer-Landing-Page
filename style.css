@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.hero{
+  background-image: url(images/developer.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.text{
+  color: aliceblue;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 16px;
+}
+
+.lg{
+  font-size: 66px;
+  font-weight: 400;
+}
+
+.black{
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.black h2{
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.bold{
+  font-weight: 500;
+  font-size: 96px;
+   font-weight: bold;
+}
+
+.cards{
+  max-height: 400px;
+  max-width: 340px;
+  margin: 50px;
+}
+
+.img{ 
+   margin-left: 60px;
+}
+
+.column{
+  
+ 
+  float: left;
+  border: 1px solid gray;
+  width: 370px;
+  height:  400px;
+  margin: 0 65px;
+  margin-top: 49px;
+
+  align-items: center;
+ background-color: rgb(185, 188, 191);
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.column:hover{
+  transform: scale(1.2);
+  box-shadow:4px 3px 3px;
+}
+
+.row{
+  min-height: 500px;
+   background-color: rgb(119, 118, 120);
+  margin-bottom: aut;
+
+}
+
+.bottom{
+  margin: 0 auto;
+  
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.contact{
+  background-color: brown;
+  align-items: center;
+ color: aliceblue;
+ font-size:large; height: 300px;
+ padding: 30px;
+ letter-spacing: 2px;
+
+
+
+
+
+
+}
+
+.about{
+  background-color: darkcyan;
+  height: 300px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.ul{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 17px;
+  list-style-type: none;
+  letter-spacing: 2px;
+}
+
+.p{
+  color: brown;
+}
+
+.mar{
+  margin: 10px;
+}
+.mar1{
+  margin: 10px;
+}
